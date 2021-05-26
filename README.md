@@ -42,7 +42,7 @@ As per module there will be operations carried out on certain data structures an
 3. generalSalary(), used to calculate the employees' payments.
 4. new(), edit(), delete(), this are the main functions for the insertion, updation, deletion of customers', employees's, distributor's and products'information.
 
-By inmplementing the above procedures on the modules, efficiency and transperency will be depicted in the Ayesha system as its operations will be maximised with less minimul errors.
+By implementing the above procedures on the modules, efficiency and transperency will be depicted in the Ayesha system as its operations will be maximised with less minimul errors.
 
 Contributed by Verry Awene and Michael Ndhlukula, other team members did not make any contributions.
 
