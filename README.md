@@ -1,9 +1,4 @@
-Background of the business
-
 Ayesha Beauty Creation is a Kamanjab based manufacturer in the Beauty, Personal Care, and Cosmetic sector that has distributors ranging from Dischem Pharmacies Namibia and PnP Namibian Stores. The manufacturer is solely comprised of females and together with the knowledge from Namibian generations have constantly been transforming the beauty sector.
-
-
-Description of the problem 
 
 Ayesha Beauty Creation despite its quest for revolutionising the beauty sector it faces some challenges. 
 The manufacturer solely uses a paper-based system for all its transactions and a filing system for its storage. At the end of a day, the manager collects the u made during that day and record it in a record counter book. This is time consuming as the manager reads through all the receipts to check for trending products, to check whether the transactions were correctly executed and overall analyse the progress of the business. 
