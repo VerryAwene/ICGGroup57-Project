@@ -14,6 +14,12 @@ Once invoices are paid, they are stored in a docket and thrown away after a mont
 
 As a result, Ayesha has decided to computarise its current paper-based system to an application. The application will be able to fully automate its processes hence increasing customer service, financial transactions and also improving the relations of the employees. 
 
+The system will be an intergration of a website that enhances customer intimacy and a database application for the internal operations of Ayesha's day to day activities.
+The website will be mainly used by customers to order, rate and review different products hence this information will be essential to Ayesha as they are able to know the different drawbacks on different products and most liked or ordered products hence aiding in the creation of indivisualised advertising campeigns. 
+The information from custoemers will also allow Ayesha to evaluate the different location of customers and the most preferred products in each location hence allowing them produce products targeting that specific region and also work on their marketing strategies in other regions.
+
+The website will also act as a link between foreign clients and Ayesha as it will be able to reach a wider audience.
+
 The new computerised system will help Ayesha Beauty Creation: 
 1. saves resources as of the stationery used
 2. reduce errors during the payment of employees and calculations as the system will be able to automatically calculate this
