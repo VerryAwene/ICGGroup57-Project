@@ -50,7 +50,214 @@ As per module there will be operations carried out on certain data structures an
 
 By implementing the above procedures on the modules, efficiency and transperency will be depicted in the Ayesha system as its operations will be maximised with less minimul errors.
 
-Contributed by Verry Awene and Michael Ndhlukula, other team members did not make any contributions.
+
+Pseudocodes
+	Login 
+     Start
+String Employee [20][20]
+username, password, 
+attempt=0
+Do While(attempt<3)
+Prompt username, password
+Get username, password
+If (username, password==Employees [] []) then
+Display “Login Successful”
+Attempt=3
+	Else
+Display “Wrong username, or password”
+Attempt=attempt+1
+System redirect to Main Menu window
+           EndIf
+EndDo
+Stop.
+
+	Sales Transaction
+Start
+vat=0.15
+search product
+	If product is available then
+Prompt quantity
+		Get  quantity
+		subtotal=quantity*price
+		balance= (subtotal*vat) + subtotal
+		Display “product, quantity, balance”
+		Get cash
+		If cash>balance then
+		change=cash-balance
+RemainingStock= remainingStock-quantity
+		Get ReorderLevel
+If (remainingStock<ReorderLevel) then 
+			Display “Product out of Stock, please Reorder”
+			EndIf
+		Else 
+		Display “Error, cash entered is not enough”
+EndIf
+Else
+Display “Product not found”
+EndIf
+Stop.
+
+	Inventory Transactions 
+Start
+Navigate to product
+Enter reOrderLevel
+If choice=updateReOrderLevel    then
+	Enter newReorderLevel
+	Enter newTargetLevel
+	Enter newRemainingStock {This is when new products have been ordered}
+If remainingStock<reOrderLevel then
+	Output “Product has to be reordered”
+	Generate ReOrder-Report
+EndIf
+EndIf
+Stop.
+
+	Products
+Begin
+Choose add, update, delete
+If choice=add then
+	Enter ProductCode, Category, Name,
+	Enter quantityPerUnit, CostPrice, SellingPrice, Supplier
+	Enter targetLevel
+endif
+If choice=Update
+	Navigate to product
+	Edit field
+	Output “The field has been modified”
+Endif
+If choice=Delete then
+	Navigate to product
+	Delete product
+	{This will also affect the inventory details}
+End.
+
+	Distributor’s details
+Begin
+Choose add, update, delete
+If choice=add then
+	Enter ShippingCompanyID, Name,
+	Enter Representative, Address, City, ZipCode
+	Enter phoneNumber, Fax
+endif
+If choice=Update
+	Navigate to ShippingCompany
+	Edit field
+	Output “The field has been modified”
+Endif
+If choice=Delete then
+	Navigate to ShippingCompany
+	Delete ShippingCompany
+End.
+                               
+	Investment
+Start
+totalExpenses, totalIncome
+Get totalExpenses, totalIncome
+returnOnInvestment()
+Stop. 
+
+	User management 
+Start
+1= “New”
+2= “Edit”
+3= “Delete”
+4= “New Employee”
+5= “Update Employee”
+6= “Delete Employee”
+Get position, password
+Login as  manager
+If position<> ”Manager” then
+Output ”You need to be a manager to access this option”
+     Else
+	Output” Welcome to the edit account form.”
+      Endif
+Get choice
+Case (choice){
+1: new()
+2: edit()
+3: delete()
+4: newEmployee()
+5: updateEmployee()
+6: deleteEmployee()
+Default: Display “Input correct choice”
+EndCase
+Stop.
+
+	Payroll
+salary=0
+hoursWorked=0
+Start
+1= “Manager”
+2= “General Employee”
+Get choice 
+Case (choice){ 
+1: managerSalary()
+2: genericSalary()
+Default: Display “Invalid choice”
+EndCase
+Stop. 
+
+Functions
+returnOnInvestment(totalExpenses,totalIncome){
+		roi=((totalIncome-totalExpenses)/totalExpeses)*100
+			Display “The Return On Investment is,roi,%”
+} 
+
+managerSalary(s,t){ 
+	salary=(hoursWorked*60)
+	display salary
+}
+
+
+generalSalary(u,v){
+	salary= (hoursWorked*40)
+	display salary
+}
+
+new(a,b){
+Click Create new record button
+	Create record 
+Prompt username, password
+Get username,password
+	save record
+	Display “Record has been saved”
+}
+
+Edit(x,y){
+Click edit record button
+	Navigate to record 
+edit username, password
+	save records
+	Output” The account change has been computed” 
+}
+
+Delete(p,q){
+Click delete record button
+	Navigate to record 
+Delete account
+	save records
+	Output” The account change has been deleted” 
+}
+
+
+
+newEmployee(j,k,l,m,n){
+Prompt firstName, surname, position, contactNumber
+	Get  firstName, surname, position, contactNumber
+	Display “Enter either Male or Female for gender!”
+	Prompt gender
+	Get gender
+}
+updateEmployee(){
+	Navigate to employee
+	Edit field 
+	Output “Employee has been modified”
+}
+deleteEmployee(){
+	Navigate to Employee
+	Delete record
+	}
+
 
 
 
